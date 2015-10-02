@@ -4,9 +4,9 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class HelloTest extends Hello {
-	Hello h = new Hello();
-	
+public class BankTest {
+	Bank h = new Bank();
+
 	@Test
 	public void test() {
 		assertEquals("Hello Scott", h.createMsg("Scott"));
