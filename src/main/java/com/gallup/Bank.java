@@ -11,7 +11,7 @@ public class Bank {
 		int currSelection = 0;
 		double requestedMoney = 0.00;
 		double balance = 10.00;
-		boolean exitProgram = false;
+		boolean exitProgram = true;
 		scanner = new Scanner(System.in);
 		while (password != passwordGuess) {
 			System.out.println("What is your password?");
@@ -61,7 +61,7 @@ public class Bank {
 				}
 
 				if (currSelection == 5) {
-					exitProgram = true;
+					exitProgram = false;
 					System.out.println("Thank you for banking with Cameron Hickey Banking and have a nice day!");
 				}
 			}
